@@ -12,6 +12,9 @@
 .sidebar-nav ul li .fa {
     color: #fff;
 }
+.sidebar-nav ul li ul {
+    padding-left: 20px;
+}
 /*********************************new css***************************/
 .nav-link[data-toggle].collapsed:after {
     content: "";

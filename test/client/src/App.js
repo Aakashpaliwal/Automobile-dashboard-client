@@ -15,6 +15,8 @@ import EditAdmin from './components/Admin/EditAdmin';
 import AddProduct from './components/Product/AddProduct';
 import ProductTable from './components/Product/ProductTable';
 import { Route, Redirect } from 'react-router-dom';
+import { AddRequirement } from './components/Requirement/AddRequirement';
+import { viewrequirement } from './components/Requirement/viewrequirement';
 
 class App extends Component {
   //   constructor() {
@@ -60,7 +62,8 @@ class App extends Component {
         <Route path = "/EditAdmin/edit/:id" exact = {true} component = {EditAdmin} />
         <Route path = "/AddProduct" exact = {true} component = {AddProduct} />
         <Route path = "/ProductTable" exact = {true} component = {ProductTable} />
-
+        <Route path = "/AddRequirement" exact = {true} component = {AddRequirement} />
+        <Route path = "/viewrequirement" exact = {true} component = {viewrequirement} />
         {/* </div>
         : (
              route === 'signin'
